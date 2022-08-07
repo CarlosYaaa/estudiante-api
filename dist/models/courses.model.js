@@ -34,7 +34,6 @@ exports.CourseSchema = new mongoose_2.Schema({
     ],
     user: {
         type: mongoose_1.default.Types.ObjectId,
-        unique: true,
         ref: 'Usuario',
     },
     students: [{

@@ -32,7 +32,6 @@ export const CourseSchema = new Schema({
   ],
   user: {
     type: mongoose.Types.ObjectId,
-    unique: true,
     ref: 'Usuario',
   },
   students: [{
